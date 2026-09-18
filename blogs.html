@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css?v=5" />
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png"/>
+    <title>Yazılar - My Tech Lens</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <a href="index.html" class="navbar-brand d-flex align-items-center py-0">
+          <img src="img/favicon.png" alt="My Tech Lens" class="navbar-logo" style="height: 20px; max-height: 20px; width: auto;">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mobile"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mobile" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Anasayfa</a>
+            </li>
+            <li class="nav-item">
+              <a href="blogs.html" class="nav-link active">Yazılar</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">İletişim</a>
+            </li>
+          </ul>
+          <form class="d-flex mt-3 mt-md-0 mb-2 mb-md-0">
+            <input type="text" class="form-control me-1" placeholder="Arayın..." />
+            <button class="btn btn-search" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- main -->
+    <main>
+      <div class="container my-4">
+        <div class="row g-4">
+          <div class="col-md-3 order-2 order-md-1">
+            <div class="list-group">
+              <a href="#" class="list-group-item list-group-item-action"
+                >Geniş Açı (Trendler & Gelecek)</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Yakın Çekim (Ürün İncelemeleri)</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Filtresiz (Görüş & Teknoloji Kültürü)</a
+              >
+              <a href="#" class="list-group-item list-group-item-action"
+                >Odak Ayarı (Rehberler & İpuçları)</a
+              >
+            </div>
+          </div>
+          <div class="col-md-9 order-1 order-md-2">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html" class="breadcrumb-custom">Anasayfa</a></li>
+                <li class="breadcrumb-item"><a href="blogs.html" class="breadcrumb-custom">Yazılar</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Geniş Açı</li>
+              </ol>
+            </nav>
+            <div class="card mb-4 shadow-sm blog-horizontal-card">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/1.jpeg"
+                    class="blog-card-img"
+                    alt="Yapay Zeka"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Yapay Zeka Gerçekten İşinizi Elinizden Alacak mı? Büyük Resme Bakıyoruz</h5>
+                    <p class="card-text">
+                      Üretken yapay zeka araçları her geçen gün daha karmaşık yetenekler kazanırken, ofis çalışanları arasında endişe artıyor. Ancak tarihteki önceki teknolojik devrimlere baktığımızda, asıl tehlikenin yapay zeka değil, "yapay zekayı kullanan rakipleriniz" olduğunu görüyoruz.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm blog-horizontal-card">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/2.jpeg"
+                    class="blog-card-img"
+                    alt="Katlanabilir Telefonlar"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Katlanabilir Telefonlar Ana Akım Olmaya Hazır mı, Yoksa Hala Pahalı Bir Oyuncak mı?</h5>
+                    <p class="card-text">
+                      Ekran kıvrımlarındaki izler, menteşe dayanıklılığı ve astronomik fiyat etiketleri... Katlanabilir akıllı telefonlar son yıllarda ciddi bir evrim geçirdi. Peki, standart bir kullanıcı için geleneksel cam bloklardan vazgeçip bu yeni forma geçmenin zamanı gerçekten geldi mi?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm blog-horizontal-card">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/3.jpeg"
+                    class="blog-card-img"
+                    alt="Bulut Oyun Servisleri"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Bulut Oyun Servisleri Konsolların Sonunu mu Getiriyor?</h5>
+                    <p class="card-text">
+                      Evinizde devasa bir donanım kutusu bulundurma devri kapanıyor olabilir. Yüksek hızlı internet bağlantılarının yaygınlaşmasıyla birlikte bulut tabanlı oyun platformlarının gecikme süreleri nihayet rekabetçi seviyelere ulaştı. Yeni bir konsol almadan önce bilmeniz gereken tüm detaylar.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card mb-4 shadow-sm blog-horizontal-card">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img
+                    src="img/4.jpeg"
+                    class="blog-card-img"
+                    alt="Modern Web"
+                  />
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Kusursuzluğun Sıkıcılığı: Modern Web Neden Ruhunu Kaybetti?</h5>
+                    <p class="card-text">
+                      Her uygulamanın, her web sitesinin ve her arayüzün birbirine benzediği bir döneme girdik. Tasarım sistemlerinin ve kullanıcı deneyimi (UX) standartlarının "kusursuzluğu", internetin o kaotik ama yaratıcı ilk yıllarındaki özgünlüğü nasıl yavaş yavaş öldürdü?
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <nav class="my-4 my-md-5">
+              <ul class="pagination justify-content-center justify-content-md-end">
+                <li class="page-item disable">
+                  <a href="#" class="page-link">Previous</a>
+                </li>
+                <li class="page-item">
+                  <a href="" class="page-link">1</a>
+                </li>
+                <li class="page-item">
+                  <a href="" class="page-link">2</a>
+                </li>
+                <li class="page-item">
+                  <a href="" class="page-link">3</a>
+                </li>
+                <li class="page-item">
+                  <a href="" class="page-link">Next</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="py-5 bg-dark text-white">
+      <div class="container text-center">
+        <span>Hakları Bende Saklıdır. @2026</span>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
