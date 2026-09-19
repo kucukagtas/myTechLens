@@ -36,21 +36,21 @@ Built with semantic **HTML5**, **Bootstrap 5**, and custom **CSS3**, the website
 
 - **📱 Fully Responsive Layout:** Fluid design system adapting smoothly to mobile screens, tablets, laptops, and wide desktop monitors using Bootstrap's flexbox grid and custom CSS media queries.
 - **🇹🇷 Native Turkish Content & Editorial Voice:** Authentic technology insights written in Turkish, bridging high-level digital trends with practical, everyday consumer tech realities.
-- **📰 Engaging Hero Section (`index.html`):**
-  - High-impact header showcase featuring responsive hero illustration artwork (`img/bg2.jpeg`).
-  - Interactive Call-to-Action buttons: *"Yazıları Keşfet"* with smooth scrolling to the `#blogs` section and *"İletişime Geç"* navigating to `contact.html`.
+- **📰 Engaging Hero Section:**
+  - High-impact header showcase featuring responsive hero illustration artwork.
+  - Interactive Call-to-Action buttons: *"Yazıları Keşfet"* with smooth scrolling to the featured articles and *"İletişime Geç"* navigating to the contact page.
   - *"Benim Gözümden"* thematic overview section setting the tone for the publication.
-- **🗂 Balanced Article Card Grid (`index.html`):**
+- **🗂 Balanced Article Card Grid:**
   - Six curated technology articles spanning AI workplace impacts, foldable smartphone durability, cloud gaming, modern web aesthetics, electronic cable hoarding habits, and smart home quirks.
   - Symmetrically aligned cards with fixed aspect-ratio imagery, uniform title line clamps, and balanced teaser descriptions.
-  - Dynamic hover elevation effects (`translateY(-4px)` with softened drop shadows).
+  - Dynamic hover elevation effects with softened drop shadows.
 - **📑 Comprehensive Multi-Page Architecture:**
-  - `index.html`: Landing page featuring hero banner, publication intro, and featured technology highlights.
-  - `blogs.html`: Dedicated articles archive with categorized sidebar navigation (*Geniş Açı*, *Yakın Çekim*, *Filtresiz*, *Odak Ayarı*), brand-colored breadcrumbs (`#5fbbe1`), horizontal card layouts with responsive image scaling, and pagination controls.
-  - `contact.html`: Interactive contact gateway featuring a styled alert box (*"Lütfen Bu Formu Doldurun!"*), clean multi-field input form, accent submit button, and a live embedded interactive Google Map (Anıtkabir, Ankara).
+  - **Homepage:** Landing page featuring hero banner, publication intro, and featured technology highlights.
+  - **Articles Archive:** Dedicated articles archive with categorized sidebar navigation (*Geniş Açı*, *Yakın Çekim*, *Filtresiz*, *Odak Ayarı*), brand-colored breadcrumbs, horizontal card layouts with responsive image scaling, and pagination controls.
+  - **Contact:** Interactive contact gateway featuring a styled alert box (*"Lütfen Bu Formu Doldurun!"*), clean multi-field input form, accent submit button, and a live embedded interactive Google Map (Anıtkabir, Ankara).
 - **🎨 Curated Color Palette & Visual Identity:**
   - Warm terracotta primary branding (`#e1855f`) paired with modern cyan accents (`#5fbbe1` / `#4baed6`).
-  - Navbar links enhanced with high-contrast shades of white (`rgba(255, 255, 255, 0.88)` to `#ffffff` on hover/active) for optimal readability.
+  - Navbar links enhanced with high-contrast styling for optimal readability.
   - Subtle micro-animations, consistent button transitions, and custom brand favicon branding.
 - **🔍 Built-in Search Bar:** Integrated search input with styled submit button present across all page navigation bars.
 - **⚡ Fast Performance & Zero Heavy Runtimes:** Lightweight static structure delivering instant page loads and excellent Core Web Vitals metrics.
@@ -131,14 +131,6 @@ Since this is a pure static web project, you can run it without any build tools:
 The live version of **My Tech Lens** is deployed on **GitHub Pages**:
 
 👉 **[https://kucukagtas.github.io/myTechLens/](https://kucukagtas.github.io/myTechLens/)**
-
-### How It Deploys:
-1. **Automated GitHub Actions:** The included [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) automatically builds and deploys the static files to GitHub Pages whenever changes are pushed to the `main` branch.
-2. **Repository Settings Activation:**
-   - In your GitHub repository, go to **Settings** → **Pages**.
-   - Under **Build and deployment** → **Source**, you can select:
-     - **GitHub Actions** (recommended — uses `deploy.yml`), or
-     - **Deploy from a branch** → Branch: `main` / Folder: `/(root)` → Click **Save**.
 
 ---
 
